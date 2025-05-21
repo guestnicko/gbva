@@ -1,0 +1,24 @@
+  body {
+    background-image: url("/img/references.png");
+    background-attachment: fixed;
+    font-size: 18px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #F0F0F2;
+
+    
+
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.473);
+}
+
+.hero-section {
+  background-color: rgba(0, 0, 0, 0.473);
+  height: 300px;
+}
+
+
+

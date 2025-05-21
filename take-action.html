@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/GBV.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GBV</title>
+    <link rel="stylesheet" href="/assets/css/take-action.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class=" flex items-center justify-between px-6 py-4 bg-transparent text-white">
+        <div class="text-lg font-bold">GB <span class="text-orange-300">V</span></div>
+        <ul class="hidden md:flex space-x-8 font-medium">
+            <li><a href="index.html" class="hover:text-orange-300">Home</a></li>
+            <li><a href="about-us.html" class="hover:text-orange-300">About us</a></li>
+            <li><a href="get-help.html" class="hover:text-orange-300">Get Help</a></li>
+            <li><a href="news-and-update.html" class="hover:text-orange-300">News and Update</a></li>
+            <li><a href="take-action.html" class="hover:text-orange-300">Take Action</a></li>
+
+
+        </ul>
+        <div class="md:hidden">
+            <button id="menu-btn" class="text-white focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+
+        </div>
+        <!-- Mobile Menu -->
+    </nav>
+    <div id="mobile-menu"
+        class="transition-all ease-in-out z-10 absolute w-full hidden md:hidden px-4 pt-2 pb-4 space-y-2">
+        <a href="index.html" class="block text-white hover:text-blue-600"><i class="fas fa-home"></i> Home</a>
+        <a href="about-us.html" class="block text-white hover:text-blue-600"><i class="fas fa-info-circle"></i> About
+            Us</a>
+        <a href="get-help.html" class="block text-white hover:text-blue-600"><i class="fas fa-envelope"></i> Get
+            Help</a>
+        <a href="news-and-update.html" class="block text-white hover:text-blue-600"><i class="fas fa-envelope"></i> News
+            and Updates</a>
+        <a href="take-action.html" class="block text-white hover:text-blue-600"><i class="fas fa-envelope"></i> Take
+            Action</a>
+
+    </div>
+    <!-- Main Section -->
+    <div class="pt-24 min-h-screen flex items-center justify-center p-6" id="take-action">
+        <div
+            class="take-action-container bg-opacity-10 p-10 rounded-3xl max-w-5xl w-full flex flex-col md:flex-row gap-10">
+
+            <!-- Join Us Form -->
+            <div
+                class="w-full md:w-1/2 bg-white bg-opacity-10 backdrop-blur-md rounded-2xl p-8 border border-white border-opacity-20 shadow-lg">
+                <h2 class="text-4xl font-bold mb-2">Join <span class="text-orange-400">us</span></h2>
+                <p class="mb-6 text-sm">Stand with survivors. Speak out for justice. Be part of the movement to end
+                    gender-based violence.</p>
+                <form class="flex flex-col gap-4">
+                    <input type="email" placeholder="Email Address"
+                        class="px-4 py-2 rounded bg-gray-100 text-black  border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-400">
+                    <textarea rows="4" placeholder="Message"
+                        class="px-4 py-2 rounded text-black bg-gray-100  border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-400"></textarea>
+                    <button type="submit" class="bg-orange-500 hover:bg-orange-600 text-white py-2 rounded">Send
+                        Message</button>
+                </form>
+            </div>
+
+            <!-- Take Action Info -->
+            <div class="w-full md:w-1/2 flex flex-col justify-center text-white">
+                <h2 class="text-3xl font-bold mb-2">Take <span class="text-orange-400">Action</span> <span>✊</span></h2>
+                <p class="text-lg leading-relaxed text-white">
+                    Gender-based violence affects millions of lives — but together, we can make a difference. Be part of
+                    the change by using your voice, supporting survivors, and helping to create a safer, more respectful
+                    world for everyone. Whether you speak out, share knowledge, or lend a helping hand, your actions
+                    truly matter.
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <footer class="bg-gray-100">
+        <div class="w-full bg-white">
+            <!-- Header Section -->
+            <div class="bg-gray-800 w-full  px-6 text-white md:flex justify-between get-involved-now py-10">
+                <div class="">
+                    <h1 class="text-4xl font-bold">Get Involve <span class="text-orange-500">Now!</span></h1>
+                    <p class="mt-2 text-xl text-purple-100">Your voice and actions can help end gender-based violence.
+                    </p>
+                </div>
+
+                <div class="flex gap-5 mt-5">
+                    <button onclick="window.location.href = 'take-action.html'"
+                        class="min-h-[50px] max-h-[55px] transition-colors ease-in rounded-full border border-orange-500 hover:bg-orange-500 text-white bg-transparent w-100 max-w-[200px] text-xl">Take
+                        Action</button>
+                    <button onclick="window.location.href = 'get-help.html'"
+                        class="min-h-[50px] max-h-[55px]  transition-colors ease-in rounded-full border border-orange-500 hover:bg-orange-500 text-white bg-transparent w-100 max-w-[200px] text-xl">Donate
+                        Now</button>
+
+                </div>
+            </div>
+
+
+            <!-- Content Section -->
+            <div class="px-6 grid md:grid-cols-3 gap-8 bg-gray-800 py-[50px]">
+                <div class="text-center  content-center">
+                    <p class="text-white text-4xl font-bold block basis-full ">GB<span class="text-orange-500">V</span>
+                    </p>
+                    <p class="text-white text-xl block basis-full">Empowering voices. Protecting
+                        lives.</p>
+                </div>
+                <!-- Quick Links Section -->
+                <div class="">
+                    <h2 class="font-semibold text-white mb-4 text-4xl text-center">Quick <span
+                            class="text-orange-500">Links</span>
+                    </h2>
+                    <ul class="text-center space-y-3">
+                        <li>
+                            <a href="index.html" class="text-white hover:text-orange-500 font-normal">Home</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html" class="text-white hover:text-orange-500 ">About Us</a>
+                        </li>
+                        <li>
+                            <a href="get-help.html" class="text-white hover:text-orange-500 ">Get Help</a>
+                        </li>
+                        <li>
+                            <a href="news-and-update.html" class="text-white hover:text-orange-500 ">News and
+                                Update</a>
+                        </li>
+                        <li>
+                            <a href="take-action.html" class="text-white hover:text-orange-500">Take Action</a>
+                        </li>
+                        <li>
+                            <a href="references.html" class="text-white hover:text-orange-500">References</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Us Section -->
+                <div class="mx-auto text-center md:text-left">
+                    <h2 class="text-4xl font-semibold text-white mb-4">Contact <span class="text-orange-500">Us</span>
+                    </h2>
+                    <div class="space-y-3">
+                        <div class="flex items-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white mt-0.5 mr-2" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            <p class="text-white">Address: Panabo City, Davao del Norte</p>
+                        </div>
+                        <div class="flex items-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white mt-0.5 mr-2" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                            <p class="text-white">Email: endgbv@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+    <script>
+
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+    </script>
+</body>
+</body>
+
+</html>
