@@ -1,5 +1,5 @@
 body {
-  background-image: url("/dist/img/references.png");
+  background-image: url("/img/references.png");
   background-attachment: fixed;
   font-size: 18px;
   background-size: cover;
@@ -17,5 +17,5 @@ nav {
   height: 300px;
 }
 .get-involved-now {
-  background-image: url("/dist/img/get-involved.png");
+  background-image: url("/img/get-involved.png");
 }
